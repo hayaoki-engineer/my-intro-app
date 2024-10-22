@@ -1,24 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Profile
+        name="田中 太郎"
+        hobby="読書と散歩"
+        bio="私はフロントエンド開発者で、ReactとTypeScriptが大好きです！"
+      />
     </div>
   );
 }

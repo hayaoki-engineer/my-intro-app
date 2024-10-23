@@ -1,9 +1,8 @@
-import './App.css';
 import Profile from './Profile';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Profile
         name="田中 太郎"
         hobby="読書と散歩"
